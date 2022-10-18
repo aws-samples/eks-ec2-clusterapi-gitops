@@ -24,8 +24,10 @@ You may refer to the following links for installing the necessary CLI toolings:
 # Fork the Git repositry and clone it to your local workstation 
 ## Step 1: Fork the git repo
 
+Fork this Git repository to your own Github account, clone to your local workstation, then change to the following directory 
+
 ```
-cd ./k8s-cluster-api-argocd
+cd ./eks-ec2-clusterapi-gitops
 ```
 
 ## Step 2: Initialize the management cluster
