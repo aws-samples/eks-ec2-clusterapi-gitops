@@ -6,7 +6,7 @@ spec:
   destination:
     name: ''
     namespace: ''
-    server: '[Replace with your EKS API Endpoint URL]' #Replace the API endpint URL of your EKS cluster
+    server: '[Replace with your EKS API Endpoint URL(the one created via ClusterAPI]' #Replace the API endpint URL of your EKS cluster
   source:
     path: workload/aws-eks
     repoURL: '[Replace with your own Git Repo URL]' #Indicate which source repo for fetching the cluster configuration
