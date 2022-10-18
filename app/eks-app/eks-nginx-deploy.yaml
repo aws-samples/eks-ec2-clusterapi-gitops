@@ -6,10 +6,10 @@ spec:
   destination:
     name: ''
     namespace: ''
-    server: 'https://AA75EFD01A126DD3B250D5DFCF6B1D12.gr7.ap-southeast-2.eks.amazonaws.com'
+    server: '[Replace with your EKS API Endpoint URL]' #Replace the API endpint URL of your EKS cluster
   source:
     path: workload/aws-eks
-    repoURL: 'https://github.com/smartbenson1/k8s-cluster-api-argocd.git' #Indicate which source repo for fetching the cluster configuration
+    repoURL: '[Replace with your own Git Repo URL]' #Indicate which source repo for fetching the cluster configuration
     targetRevision: HEAD
   project: default #You can give a project name here
   syncPolicy:
