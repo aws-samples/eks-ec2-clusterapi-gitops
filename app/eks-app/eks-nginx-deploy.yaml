@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: eks-nginx
+spec:
+  destination:
+    name: ''
+    namespace: ''
+    server: 'https://AA75EFD01A126DD3B250D5DFCF6B1D12.gr7.ap-southeast-2.eks.amazonaws.com'
+  source:
+    path: workload/aws-eks
+    repoURL: 'https://github.com/smartbenson1/k8s-cluster-api-argocd.git' #Indicate which source repo for fetching the cluster configuration
+    targetRevision: HEAD
+  project: default #You can give a project name here
+  syncPolicy:
+    automated:
+      allowEmpty: true

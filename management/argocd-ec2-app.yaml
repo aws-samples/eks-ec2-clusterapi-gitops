@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ec2-cluster
+spec:
+  destination:
+    name: ''
+    namespace: 'default'
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: 'capi-cluster/aws-ec2'
+    repoURL: 'https://github.com/smartbenson1/k8s-cluster-api-argocd.git'
+    targetRevision: HEAD
+    #helm:
+     # valueFiles:
+       # - values-c1.yaml
+  project: default
+  syncPolicy:
+    automated:
+      allowEmpty: true
