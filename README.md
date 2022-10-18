@@ -1,4 +1,4 @@
-# k8s-cluster-api-argocd
+# eks-ec2-clusterapi-gitops
 
 Cluster API Provider for aws (https://github.com/kubernetes-sigs/cluster-api-provider-aws) (CAPA), maintained by an opensource community, (https://github.com/kubernetes-sigs/cluster-api-provider-aws) is a SIG Cluster Lifecycle project, with which you can deploy and upgrade Kubernetes clusters by handling infrastructure provisioning in AWS. CAPA enables provisioning of EC2 and EKS based Kubernetes clusters. In this project, we will cover both to simulate a multi-cluster scenario where customer needs to operate Kubernetes cluster either running on a self-managed cluster backed by EC2 or the other on Amazon EKS.
 
