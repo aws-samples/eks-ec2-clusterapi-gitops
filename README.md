@@ -5,7 +5,7 @@ Cluster API Provider for aws (https://github.com/kubernetes-sigs/cluster-api-pro
 # Architecture
 ![Diagram](/Architecture_Diagram.jpg)
 
-# Prerequisits
+# Prerequisites
 * An understanding of Amazon EKS, Argo CD and Kubernetes
 * Complete installation of kubectl, kind, clusterctl, clusterawsadm, argocd cli, aws cli, jq, docker
 * An AWS account and a profile with administrator permissions should be configured
