@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: 'capi-cluster/aws-ec2'
-    repoURL: [Replace with your forked git repo URL]
+    repoURL: '[Replace with your forked git repo URL]'
     targetRevision: HEAD
     #helm:
      # valueFiles:
